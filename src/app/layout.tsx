@@ -16,8 +16,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://titiknol.vercel.app"),
   title: "TitikNol | SOTY Single Page Application",
   description: "Eksplorasi antarmuka digital premium dengan WebGL 3D ekosistem, mikro-interaksi canggih, dan strategi Dual-Faced Branding.",
+  alternates: {
+    canonical: "https://titiknol.vercel.app",
+  },
+  openGraph: {
+    title: "TitikNol | SOTY Single Page Application",
+    description: "Eksplorasi antarmuka digital premium dengan WebGL 3D ekosistem, mikro-interaksi canggih, dan strategi Dual-Faced Branding.",
+    url: "https://titiknol.vercel.app",
+    siteName: "TitikNol Enterprise",
+    images: [
+      {
+        url: "/hifi_elite_dashboard.png",
+        width: 1200,
+        height: 630,
+        alt: "TitikNol SOTY Elite Dashboard Banner",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TitikNol | SOTY Single Page Application",
+    description: "Eksplorasi antarmuka digital premium dengan WebGL 3D ekosistem, mikro-interaksi canggih, dan strategi Dual-Faced Branding.",
+    images: ["/hifi_elite_dashboard.png"],
+  },
 };
 
 export default function RootLayout({

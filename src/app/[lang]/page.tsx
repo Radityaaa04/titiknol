@@ -176,6 +176,7 @@ export default function HomePage() {
           <div className="pt-6">
             <Link
               href={`/${lang}/case-study`}
+              aria-label={cur.primaryCta}
               className="inline-flex items-center space-x-4 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-black font-extrabold text-sm md:text-base tracking-wider uppercase px-9 py-5 rounded-full shadow-2xl shadow-cyan-500/30 transition-all duration-300 hover:scale-105 transform"
             >
               <span>{cur.primaryCta}</span>
@@ -213,11 +214,13 @@ export default function HomePage() {
                 <span className="text-xs font-bold uppercase tracking-widest text-cyan-400 bg-cyan-500/20 px-4 py-1.5 rounded-full border border-cyan-500/30">
                   {cur.caseCategory}
                 </span>
+                {/* Hierarki yang benar: h2 -> h3 */}
                 <h3 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight">{cur.caseName}</h3>
               </div>
 
               <Link
                 href={`/${lang}/case-study`}
+                aria-label={lang === "en" ? "Explore Full Breakdown" : "Lihat Eksplorasi Penuh"}
                 className="glass-card bg-white/10 hover:bg-white/20 text-white border border-white/20 backdrop-blur-xl font-bold uppercase text-xs md:text-sm tracking-widest px-8 py-4 rounded-full transition-all duration-300 text-center shrink-0 shadow-xl hover:border-cyan-400"
               >
                 {lang === "en" ? "Explore Full Breakdown" : "Lihat Eksplorasi Penuh"}
@@ -315,11 +318,14 @@ export default function HomePage() {
                 </div>
 
                 <div className="pt-10">
-                  <button className={`w-full py-4 rounded-full font-extrabold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-xl ${
-                    tier.popular
-                      ? "bg-cyan-400 hover:bg-cyan-300 text-black shadow-cyan-500/30"
-                      : "bg-white/10 hover:bg-white/20 text-white border border-white/20"
-                  }`}>
+                  <button 
+                    aria-label={`${tier.cta} - ${tier.name}`}
+                    className={`w-full py-4 rounded-full font-extrabold text-xs md:text-sm tracking-widest uppercase transition-all duration-300 shadow-xl ${
+                      tier.popular
+                        ? "bg-cyan-400 hover:bg-cyan-300 text-black shadow-cyan-500/30"
+                        : "bg-white/10 hover:bg-white/20 text-white border border-white/20"
+                    }`}
+                  >
                     {tier.cta}
                   </button>
                 </div>

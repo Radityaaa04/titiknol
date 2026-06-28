@@ -13,7 +13,7 @@ export default function WebGLBackground() {
   const initialPositionsRef = useRef<Float32Array | null>(null);
   const mouseRef = useRef<{ x: number; y: number; active: boolean }>({ x: 0, y: 0, active: false });
 
-  // 1. Inisialisasi Mesin Three.js (SOTY Performance - Never Unmounted)
+  // 1. Inisialisasi Mesin Three.js (SOTY Performance - Never Unmounted + Dynamic Scaling & Pause Optimization)
   useEffect(() => {
     if (!mountRef.current) return;
 
@@ -30,8 +30,10 @@ export default function WebGLBackground() {
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     mountRef.current.appendChild(renderer.domElement);
 
-    // Geometry & 8,000 Particles
-    const count = 8000;
+    // Dynamic Scaling: Menyesuaikan jumlah partikel secara cerdas berdasarkan kapabilitas hardware & layar
+    const isLowEnd = typeof navigator !== "undefined" && ((navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4) || window.innerWidth < 768);
+    const count = isLowEnd ? 3500 : 8000;
+
     const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(count * 3);
     const initialPositions = new Float32Array(count * 3);
@@ -109,12 +111,22 @@ export default function WebGLBackground() {
     window.addEventListener("mousemove", handleMouseMove);
     document.addEventListener("mouseleave", handleMouseLeave);
 
+    // Optimasi Pause saat Tab disembunyikan (VisibilityChange) & Scroll jauh ke bawah
+    let isVisible = true;
+    const handleVisibilityChange = () => {
+      isVisible = !document.hidden;
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+
     // Animation Loop (60 FPS Mulus)
     let animationFrameId: number;
     const clock = new THREE.Clock();
 
     const animate = () => {
       animationFrameId = requestAnimationFrame(animate);
+
+      // Main Thread Saver: Lewati komputasi berat jika tab tidak aktif
+      if (!isVisible) return;
 
       const elapsedTime = clock.getElapsedTime();
       
@@ -180,6 +192,7 @@ export default function WebGLBackground() {
       window.removeEventListener("resize", handleResize);
       window.removeEventListener("mousemove", handleMouseMove);
       document.removeEventListener("mouseleave", handleMouseLeave);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
       cancelAnimationFrame(animationFrameId);
       renderer.dispose();
       geometry.dispose();
