@@ -54,9 +54,13 @@ export default function RootLayout({
   return (
     <html
       lang="id"
+      suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#000002] text-white selection:bg-cyan-500 selection:text-black overflow-x-hidden">
+      <body
+        suppressHydrationWarning
+        className="min-h-full flex flex-col bg-[#000002] text-white selection:bg-cyan-500 selection:text-black overflow-x-hidden"
+      >
         {/* Pengguliran selicin sutra dengan Lenis */}
         <SmoothScroll />
         {/* Rahasia Performa SOTY: WebGLBackground dan Navigation diletakkan di layout.tsx agar tidak pernah di-unmount */}
