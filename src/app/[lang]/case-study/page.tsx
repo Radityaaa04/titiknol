@@ -58,33 +58,41 @@ export default function CaseStudyPage() {
 
   const contentData = {
     en: {
-      caseTagline: "The Deep Dive — High Fidelity Engineering",
+      caseTagline: "Aetheris OS — High-Fidelity Engineering Masterpiece",
       specRole: "Role: Lead Architectural UI/UX & WebGL Systems",
-      specClient: "Client: TitikNol Global Enterprise",
+      specClient: "Client: Aetheris Global AI Neural Network",
       specYear: "Year: 2026",
       challengeTitle: "The Enterprise Architectural Challenge",
-      challengeText1: "In an increasingly saturated digital landscape, standard flat web applications fail to capture enterprise executive attention. TitikNol required a state-of-the-art interactive paradigm capable of handling 8,000 active WebGL particles simultaneously without dropping below 60 FPS on mobile devices.",
-      challengeText2: "Our solution involved constructing an advanced WebGL pipeline leveraging custom Float32Array buffer geometries, additive color blending, and an elite glassmorphism design system. This zero-latency environment resulted in an unprecedented +340% increase in enterprise engagement and corporate acquisitions.",
-      processTitle: "Architectural Process & Blueprint Validation",
-      processSub: "Hover over the foundational wireframe below to trigger real-time high-fidelity production rendering.",
-      designTasteTitle: "Interactive Wave & Typographic Precision",
+      challengeText1: "In an increasingly competitive corporate technology landscape, flat standard design templates fail to convey authority. Aetheris required an ultra-high-fidelity interactive ecosystem capable of representing complex AI neural calculations in a visually breathtaking format.",
+      challengeText2: "We built an uncompromised WebGL pipeline paired with an elite dark glassmorphism design system. This zero-latency environment achieved perfect Google Lighthouse performance scores and secured global corporate dominance.",
+      processTitle: "Deep Architectural Process & Wireframe Verification",
+      processSub: "Hover over the foundational blueprint wireframe below to instantly reveal the world-class High-Fidelity Glassmorphism Analytics Dashboard.",
+      typoTitle: "Asymmetrical Layout & Typographic Hierarchy",
+      typoDesc: "Precision typography separates standard web pages from Awwwards winners. We implemented a rigorous dual-font architecture pairing Geist Sans for extreme headline clarity with Geist Mono for tabular data structures.",
+      typoHighlight1: "Heading Hierarchy: Geist Sans, Bold 900, -0.05em Tracking.",
+      typoHighlight2: "Microcopy & Metrics: Geist Mono, Medium 500, +0.1em Tracking.",
+      designTasteTitle: "Harmonic Color System & Psychology",
       designTasteDesc: "Every element in this ecosystem adheres to rigorous visual guidelines. The background vectors dynamically morph between abstract cosmic dispersion and strict geometric project silhouettes to maintain optimal visual hierarchy.",
-      nextProjectTitle: "Next Case Study",
+      nextProjectTitle: "Next Flagship Project",
       nextProjectName: "Quantum Dynamics",
     },
     id: {
-      caseTagline: "The Deep Dive — Transformasi Bisnis Nyata",
-      specRole: "Peran: UI/UX Premium & Optimasi Kecepatan",
-      specClient: "Klien: TitikNol Indonesia",
+      caseTagline: "Aetheris OS — Bukti Nyata Kedalaman Pemikiran Desain TitikNol",
+      specRole: "Peran: UI/UX Premium, Desain Sistem & Arsitektur WebGL",
+      specClient: "Klien: Aetheris Korporat (Flagship Project)",
       specYear: "Tahun: 2026",
-      challengeTitle: "Tantangan Utama di Pasar Indonesia",
-      challengeText1: "Konsumen lokal dan UMKM sering kali merasa bosan dengan tampilan website yang kaku dan biasa-biasa saja. TitikNol membutuhkan terobosan tampilan yang mewah, cepat diakses dari HP, dan mampu meyakinkan calon pelanggan dalam 3 detik pertama.",
-      challengeText2: "Solusi kami berfokus pada desain interaktif 3D yang sangat mulus dipadukan dengan kata-kata penawaran yang terbukti menjual. Pendekatan langsung ini berhasil melesatkan konversi penjualan TitikNol hingga +340% dan mempercepat proses penutupan transaksi (closing).",
-      processTitle: "Proses Desain & Transisi Keajaiban",
-      processSub: "Arahkan kursor (hover) pada sketsa wireframe di bawah ini untuk melihat wujud asli desain antarmuka premium secara instan.",
-      designTasteTitle: "Estetika Modern & Kemudahan Transaksi",
-      designTasteDesc: "Tidak hanya cantik di mata, setiap animasi dan warna diatur agar calon pembeli Anda fokus pada tombol pemesanan. Kami memastikan website Anda tampil paling elegan di antara seluruh kompetitor bisnis Anda.",
-      nextProjectTitle: "Proyek Selanjutnya",
+      challengeTitle: "Tantangan Utama Menaklukkan Juri Awwwards & Korporat",
+      challengeText1: "Klien korporat raksasa dan juri Awwwards tidak akan terpukau dengan desain template standar yang dangkal. Mereka membutuhkan bukti nyata kedalaman pemikiran, struktur asimetris yang tidak terduga, dan eksekusi visual tingkat mahakarya.",
+      challengeText2: "Melalui pengerjaan portofolio 'Bakar Waktu' ini, kami merancang Aetheris OS—sebuah antarmuka dasbor analitik High-Fidelity yang diperkaya efek glassmorphism berkelas tinggi. Hasil akhir ini tidak hanya memanjakan mata secara estetika, namun juga membuktikan kapasitas TitikNol dalam menangani proyek korporat berskala internasional.",
+      processTitle: "Proses Kerja Mendalam: Wireframe Menuju Hi-Fi",
+      processSub: "Arahkan kursor (hover) pada sketsa wireframe struktural di bawah ini untuk melihat transisi instan menuju wujud asli desain UI High-Fidelity kelas dunia.",
+      typoTitle: "Tata Letak Asimetris & Skala Tipografi Presisi",
+      typoDesc: "Tipografi adalah nyawa dari sebuah mahakarya desain. Kami memadukan font Geist Sans dengan kerning super rapat untuk memberikan kesan tegas dan berwibawa pada judul utama, dipadukan dengan Geist Mono untuk angka analitik agar terbaca sempurna dengan keakuratan tinggi.",
+      typoHighlight1: "Judul Asimetris: Geist Sans, Bobot 900, Rapat -0.05em.",
+      typoHighlight2: "Angka & Indikator: Geist Mono, Bobot 500, Renggang +0.1em.",
+      designTasteTitle: "Palet Warna Harmonis & Reaksi WebGL",
+      designTasteDesc: "Pemilihan warna dirancang untuk memicu rasa percaya (trust) seketika dari klien korporat. Warna dasar gelap pekat dipadukan dengan pendaran cahaya neon agar elemen grafik analitik Anda tampak menonjol dan hidup di layar apa pun.",
+      nextProjectTitle: "Proyek Masterpiece Selanjutnya",
       nextProjectName: "Quantum Dynamics",
     },
   };
@@ -114,23 +122,23 @@ export default function CaseStudyPage() {
       {/* HERO SECTION */}
       <div className="relative min-h-[70vh] flex flex-col justify-between pt-12 pb-16 border-b border-white/10">
         <div>
-          <span className="text-xs md:text-sm font-bold uppercase tracking-widest text-cyan-400 bg-cyan-500/10 px-4 py-2 rounded-full border border-cyan-500/30">
+          <span className="text-xs md:text-sm font-bold uppercase tracking-widest text-cyan-400 bg-cyan-500/10 px-5 py-2.5 rounded-full border border-cyan-500/30 shadow-lg shadow-cyan-500/10 inline-block">
             {cur.caseTagline}
           </span>
 
           <h1 
-            className="mt-8 text-7xl md:text-9xl font-black tracking-tighter text-white hover:text-cyan-200 transition-colors duration-500 select-none cursor-default"
+            className="mt-8 text-6xl sm:text-7xl md:text-9xl font-black tracking-tighter text-white hover:text-cyan-200 transition-colors duration-500 select-none cursor-default leading-none"
             onMouseEnter={() => setHoveredHero(true)}
             onMouseLeave={() => setHoveredHero(false)}
           >
-            THE DEEP DIVE
+            AETHERIS OS
           </h1>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-16 text-xs md:text-sm font-medium text-white/70">
-          <div className="glass-card p-4 rounded-xl border border-white/10">{cur.specRole}</div>
-          <div className="glass-card p-4 rounded-xl border border-white/10">{cur.specClient}</div>
-          <div className="glass-card p-4 rounded-xl border border-white/10">{cur.specYear}</div>
+          <div className="glass-card p-5 rounded-2xl border border-white/10 shadow-xl">{cur.specRole}</div>
+          <div className="glass-card p-5 rounded-2xl border border-white/10 shadow-xl">{cur.specClient}</div>
+          <div className="glass-card p-5 rounded-2xl border border-white/10 shadow-xl">{cur.specYear}</div>
         </div>
       </div>
 
@@ -138,42 +146,42 @@ export default function CaseStudyPage() {
       <div className="relative w-full h-[50vh] md:h-[80vh] mt-16 rounded-3xl overflow-hidden border border-white/20 shadow-2xl shadow-cyan-500/10">
         <div ref={parallaxWrapperRef} className="absolute inset-0 w-full h-[120%]">
           <Image
-            src="/hero_project_image_1782607753603.png"
+            src="/hifi_elite_dashboard.png"
             fill
             sizes="100vw"
             priority
-            alt="Hero Project Visual"
-            className="object-cover object-center scale-105 transition-transform duration-1000"
+            alt="Aetheris OS Masterpiece Visual"
+            className="object-cover object-top scale-105 transition-transform duration-1000"
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-[#000002] via-transparent to-transparent opacity-80 z-10 pointer-events-none" />
       </div>
 
       {/* CONTENT BREAKDOWN */}
-      <div ref={textContentRef} className="mt-24 max-w-5xl mx-auto space-y-24">
+      <div ref={textContentRef} className="mt-28 max-w-6xl mx-auto space-y-36">
         
         {/* THE CHALLENGE */}
-        <section className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
-          <div className="md:col-span-4 stagger-item">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-white border-l-4 border-cyan-500 pl-4">
+        <section className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+          <div className="md:col-span-5 stagger-item">
+            <h2 className="text-3xl md:text-4xl font-black text-white border-l-4 border-cyan-500 pl-5 leading-tight">
               {cur.challengeTitle}
             </h2>
           </div>
-          <div className="md:col-span-8 space-y-6 text-base md:text-lg text-white/80 font-light leading-relaxed stagger-item">
+          <div className="md:col-span-7 space-y-8 text-lg md:text-xl text-white/80 font-light leading-relaxed stagger-item">
             <p>{cur.challengeText1}</p>
             <p>{cur.challengeText2}</p>
           </div>
         </section>
 
         {/* PROCESS & WIREFRAME TO HI-FI INTERACTION */}
-        <section className="space-y-8 stagger-item bg-[#101016]/80 p-8 md:p-12 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-xl">
-          <div className="text-left space-y-3">
-            <h2 className="text-3xl md:text-4xl font-black text-white">{cur.processTitle}</h2>
-            <p className="text-sm md:text-base text-cyan-300 font-medium">{cur.processSub}</p>
+        <section className="space-y-10 stagger-item bg-[#101016]/90 p-8 md:p-14 rounded-3xl border border-white/10 shadow-2xl backdrop-blur-2xl">
+          <div className="text-left space-y-4 max-w-3xl">
+            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight">{cur.processTitle}</h2>
+            <p className="text-base md:text-lg text-cyan-300 font-medium leading-relaxed">{cur.processSub}</p>
           </div>
 
           <div 
-            className="relative w-full aspect-video rounded-2xl overflow-hidden border-2 border-white/20 shadow-2xl transition-all duration-700 cursor-pointer group"
+            className="relative w-full aspect-[16/10] rounded-2xl overflow-hidden border-2 border-white/20 shadow-2xl transition-all duration-700 cursor-pointer group"
             onMouseEnter={() => setWireframeHovered(true)}
             onMouseLeave={() => setWireframeHovered(false)}
           >
@@ -189,44 +197,63 @@ export default function CaseStudyPage() {
             
             <div className={`absolute inset-0 w-full h-full transition-all duration-700 z-10 ${wireframeHovered ? "opacity-100 scale-102" : "opacity-0 scale-100"}`}>
               <Image
-                src="/hifi_ui_design_1782607772379.png"
+                src="/hifi_spatial_architecture.png"
                 fill
                 sizes="(max-width: 1200px) 100vw, 1200px"
-                alt="High Fidelity UI Design"
+                alt="High Fidelity Spatial UI Design"
                 className="object-cover"
               />
             </div>
 
-            <div className="absolute bottom-6 left-6 z-20 bg-black/70 backdrop-blur-md px-6 py-3 rounded-full border border-white/20 flex items-center space-x-3 pointer-events-none">
-              <div className={`w-3 h-3 rounded-full transition-colors duration-500 ${wireframeHovered ? "bg-cyan-400 animate-pulse" : "bg-violet-500"}`} />
-              <span className="text-xs font-extrabold uppercase tracking-wider text-white">
-                {wireframeHovered ? "Hi-Fi Glassmorphism Dashboard" : "Foundational Blueprint Wireframe"}
+            <div className="absolute bottom-6 left-6 z-20 bg-black/80 backdrop-blur-xl px-6 py-3.5 rounded-full border border-white/20 flex items-center space-x-3 pointer-events-none shadow-2xl">
+              <div className={`w-3.5 h-3.5 rounded-full transition-colors duration-500 ${wireframeHovered ? "bg-cyan-400 animate-pulse" : "bg-violet-500"}`} />
+              <span className="text-xs font-black uppercase tracking-wider text-white">
+                {wireframeHovered ? "World-Class High-Fidelity UI Masterpiece" : "Foundational Blueprint Wireframe"}
               </span>
             </div>
           </div>
         </section>
 
+        {/* ASYMMETRICAL TYPOGRAPHY & LAYOUT */}
+        <section className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center stagger-item bg-gradient-to-r from-[#12121c] to-[#0d0d14] p-10 md:p-14 rounded-3xl border border-white/10 shadow-2xl">
+          <div className="md:col-span-7 space-y-6">
+            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight">{cur.typoTitle}</h2>
+            <p className="text-base md:text-lg text-white/70 font-light leading-relaxed">{cur.typoDesc}</p>
+            <div className="space-y-4 pt-4 text-xs md:text-sm font-semibold text-cyan-400">
+              <div className="glass-card p-4 rounded-xl border border-cyan-500/30">{cur.typoHighlight1}</div>
+              <div className="glass-card p-4 rounded-xl border border-cyan-500/30">{cur.typoHighlight2}</div>
+            </div>
+          </div>
+          <div className="md:col-span-5 flex flex-col justify-center items-center p-8 glass-card rounded-2xl border border-white/20 text-center space-y-6">
+            <div className="text-7xl font-black text-white tracking-tighter">Aa</div>
+            <div className="space-y-1">
+              <span className="text-sm font-bold text-white block">Geist Sans & Mono</span>
+              <span className="text-xs text-white/50 block">Designed by Vercel for Ultra Clarity</span>
+            </div>
+          </div>
+        </section>
+
         {/* DESIGN TASTE & COLORS */}
-        <section className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center stagger-item">
+        <section className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center stagger-item">
           <div className="md:col-span-5 space-y-6">
-            <h2 className="text-3xl font-extrabold text-white">{cur.designTasteTitle}</h2>
-            <p className="text-base text-white/70 font-light leading-relaxed">{cur.designTasteDesc}</p>
+            <h2 className="text-3xl md:text-4xl font-black text-white tracking-tight">{cur.designTasteTitle}</h2>
+            <p className="text-base md:text-lg text-white/70 font-light leading-relaxed">{cur.designTasteDesc}</p>
           </div>
 
           <div className="md:col-span-7 grid grid-cols-2 sm:grid-cols-4 gap-4">
-            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-cyan-500/30">
+            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-cyan-500/30 shadow-xl">
               <div className="w-12 h-12 rounded-full bg-[#06b6d4] shadow-lg shadow-cyan-500/50" />
               <span className="text-xs font-bold">Cyber Cyan</span>
             </div>
-            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-violet-500/30">
+            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-violet-500/30 shadow-xl">
               <div className="w-12 h-12 rounded-full bg-[#8b5cf6] shadow-lg shadow-violet-500/50" />
               <span className="text-xs font-bold">Neon Violet</span>
             </div>
-            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-white/30">
+            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-white/30 shadow-xl">
               <div className="w-12 h-12 rounded-full bg-[#ffffff] shadow-lg shadow-white/50" />
               <span className="text-xs font-bold">Pure White</span>
             </div>
-            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-indigo-500/30">
+            <div className="glass-card p-6 rounded-2xl flex flex-col items-center text-center space-y-3 border-indigo-500/30 shadow-xl">
               <div className="w-12 h-12 rounded-full bg-[#1e1b4b] shadow-lg shadow-indigo-500/50" />
               <span className="text-xs font-bold">Deep Navy</span>
             </div>
@@ -234,7 +261,7 @@ export default function CaseStudyPage() {
         </section>
 
         {/* EXIT TRANSITION / NEXT PROJECT */}
-        <section className="pt-24 border-t border-white/10 text-center stagger-item">
+        <section className="pt-28 border-t border-white/10 text-center stagger-item">
           <span className="text-xs font-bold uppercase tracking-widest text-white/50 block mb-4">
             {cur.nextProjectTitle}
           </span>
@@ -250,7 +277,7 @@ export default function CaseStudyPage() {
       </div>
       
       {/* FOOTER */}
-      <footer className="relative z-10 w-full mt-32 py-8 border-t border-white/10 text-center text-xs text-white/50 bg-[#000002]/90 backdrop-blur-md">
+      <footer className="relative z-10 w-full mt-40 py-10 border-t border-white/10 text-center text-xs text-white/50 bg-[#000002]/90 backdrop-blur-md">
         <p>© 2026 TitikNol Enterprise | Built with Next.js App Router, Three.js & GSAP. Dual-Faced Branding Active.</p>
       </footer>
     </div>
