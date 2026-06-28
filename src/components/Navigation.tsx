@@ -19,8 +19,8 @@ export default function Navigation() {
     : "Edisi Khusus Pebisnis & UMKM Indonesia";
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 glass-panel border-x-0 border-t-0 px-6 py-4 md:px-12 flex items-center justify-between backdrop-blur-md">
-      <div className="flex items-center space-x-6">
+    <header suppressHydrationWarning className="fixed top-0 left-0 right-0 z-50 glass-panel border-x-0 border-t-0 px-6 py-4 md:px-12 flex items-center justify-between backdrop-blur-md">
+      <div suppressHydrationWarning className="flex items-center space-x-6">
         <Link
           href={`/${currentLang}`}
           className="text-xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-white to-violet-400 cursor-pointer focus:outline-none"
@@ -32,7 +32,7 @@ export default function Navigation() {
         </span>
       </div>
 
-      <div className="flex items-center space-x-6">
+      <div suppressHydrationWarning className="flex items-center space-x-6">
         <nav className="flex items-center space-x-6 text-sm font-medium">
           <Link
             href={`/${currentLang}`}
@@ -53,7 +53,7 @@ export default function Navigation() {
         </nav>
 
         {/* Dual-Faced Branding Toggle (USD / IDR) */}
-        <div className="flex items-center bg-black/50 p-1 rounded-full border border-white/10">
+        <div suppressHydrationWarning className="flex items-center bg-black/50 p-1 rounded-full border border-white/10">
           <Link
             href={`/en${subPath}`}
             className={`px-3 py-1 text-xs font-bold rounded-full transition-all cursor-pointer ${

@@ -118,9 +118,9 @@ export default function WebGLBackground() {
     };
     document.addEventListener("visibilitychange", handleVisibilityChange);
 
-    // Animation Loop (60 FPS Mulus)
+    // Animation Loop (60 FPS Mulus - Menggunakan performance.now() pengganti THREE.Clock yang deprecated)
     let animationFrameId: number;
-    const clock = new THREE.Clock();
+    const startTime = performance.now();
 
     const animate = () => {
       animationFrameId = requestAnimationFrame(animate);
@@ -128,7 +128,7 @@ export default function WebGLBackground() {
       // Main Thread Saver: Lewati komputasi berat jika tab tidak aktif
       if (!isVisible) return;
 
-      const elapsedTime = clock.getElapsedTime();
+      const elapsedTime = (performance.now() - startTime) * 0.001;
       
       // Rotasi dasar ekosistem
       points.rotation.y = elapsedTime * 0.05;
@@ -257,5 +257,5 @@ export default function WebGLBackground() {
     }
   }, [pathname]);
 
-  return <div id="webgl-container" ref={mountRef} className="fixed inset-0 pointer-events-none z-0" />;
+  return <div id="webgl-container" suppressHydrationWarning ref={mountRef} className="fixed inset-0 pointer-events-none z-0" />;
 }
